@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Argentina - Paixão e Cultura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🇦🇷 Argentina: Paixão e Cultura</h1>
+  </header>
+
+  <nav>
+    <a href="#futebol">Futebol</a>
+    <a href="#cultura">Cultura</a>
+    <a href="#comida">Comida</a>
+    <a href="#curiosidades">Curiosidades</a>
+    <a href="#musica">Música e Dança</a>
+    <a href="#idioma">Idioma</a>
+  </nav>
+
+  <section id="futebol">
+    <h2>⚽ Futebol</h2>
+    <p>O futebol é quase uma religião na Argentina. Clubes como Boca Juniors e River Plate têm rivalidades históricas. Ídolos como Diego Maradona e Lionel Messi são símbolos mundiais. A seleção conquistou três Copas do Mundo (1978, 1986 e 2022).</p>
+  </section>
+
+   <section id="hino">
+     <h2>🎵 Hino Nacional</h2>
+     <p>O <strong>Hino</strong> Nacional Argentino é um símbolo de orgulho e identidade. Composto por Vicente López y Planes e música de Blas Parera, é cantado em eventos esportivos e celebrações nacionais.</p>
+    <h3>Oid mortales, el grito sagrado
+    ¡Libertad! ¡Libertad! ¡Libertad!
+    Oid el ruido de rotas cadenas
+Ved en trono a la noble igualdad
+Ya su trono dignísimo abrieron
+Las Provincias Unidas del Sud
+Y los libres del mundo responden
+¡Al gran pueblo argentino, salud!
+Y los libres del mundo responden
+¡Al gran pueblo argentino, salud!
+Sean eternos los laureles
+Que supimos conseguir
+Sean eternos los laureles
+Que supimos conseguir
+¡Coronados de gloria vivamos
+O juremos con gloria morir!
+¡O juremos con gloria morir!
+¡O juremos con gloria morir!
+¡O juremos con gloria morir!</h3>
+<h2>tradução</h2>
+<h3>Ouçam, mortais, o clamor sagrado
+Oíd, mortales, el grito sagrado
+
+Liberdade! Liberdade! Liberdade!
+¡Libertad! ¡Libertad! ¡Libertad!
+
+Ouçam o som de correntes quebradas
+Oíd el ruido de rotas cadenas
+
+Vejam a igualdade nobre no trono
+Ved en trono a la noble igualdad
+
+
+Seu trono digno já foi aberto
+Ya su trono dignísimo abrieron
+
+As Províncias Unidas do Sul
+Las Provincias Unidas del Sud
+
+E os livres do mundo respondem
+Y los libres del mundo responden
+
+Ao grande povo argentino, um brinde!
+¡Al gran pueblo argentino, salud!
+
+Ao grande povo argentino, um brinde!
+¡Al gran pueblo argentino, salud!
+
+E os livres do mundo respondem
+Y los libres del mundo responden
+
+Ao grande povo argentino, um brinde!
+¡Al gran pueblo argentino, salud!
+
+E os livres do mundo respondem
+Y los libres del mundo responden
+
+Ao grande povo argentino, um brinde!
+¡Al gran pueblo argentino, salud!
+
+
+Que os louros sejam eternos
+Sean eternos los laureles
+
+Que saibamos como alcançar
+Que supimos conseguir
+
+Que saibamos como alcançar
+Que supimos conseguir
+
+Coroados de glória vivamos
+Coronados de gloria vivamos
+
+Ou juremos pela glória morrer!
+¡O juremos con gloria morir!
+
+Ou juremos pela glória morrer!
+¡O juremos con gloria morir!
+
+Ou juremos pela glória morrer!
+¡O juremos con gloria morir!</h3>
+  <audio id="player" controls>
+    <source src="Hino.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>
+
+  <button onclick="playMusic()">▶️ Tocar Música</button>
+  <button onclick="pauseMusic()">⏸️ Pausar Música</button>
+  </section>
+
+  <section id="cultura">
+    <h2>🎭 Cultura</h2>
+    <p>A cultura argentina mistura tradições indígenas e influências europeias. A literatura é reconhecida mundialmente, com autores como Jorge Luis Borges e Julio Cortázar. O mate é símbolo de convivência e amizade.</p>
+  </section>
+
+  <section id="comida">
+    <h2>🍴 Comida Típica</h2>
+    <ul>
+      <li><strong>Asado</strong>: churrasco argentino com cortes especiais.</li>
+      <li><strong>Empanadas</strong>: pastéis recheados com carne ou queijo.</li>
+      <li><strong>Dulce de leche</strong>: doce cremoso usado em sobremesas.</li>
+    </ul>
+  </section>
+
+  <section id="curiosidades">
+    <h2>🔎 Curiosidades</h2>
+    <div class="curiosidade">O Obelisco de Buenos Aires é um dos monumentos mais icônicos.</div>
+    <div class="curiosidade">A Patagônia é famosa por paisagens naturais e geleiras.</div>
+    <div class="curiosidade">O tango nasceu em Buenos Aires no final do século XIX.</div>
+    <button onclick="mostrarCuriosidade()">Mostrar curiosidade extra</button>
+    <p id="extra"></p>
+  </section>
+
+  <section id="musica">
+  <h2>🎶 Música e Dança</h2>
+  <p>O <strong>tango</strong> é a dança mais famosa, com músicas intensas e apaixonadas. O folclore argentino traz ritmos como chacarera e zamba. Mercedes Sosa marcou a música popular.</p>
+
+  <!-- Player de música -->
+  <audio id="player" controls>
+    <source src="tango.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>
+
+  <button onclick="playMusic()">▶️ Tocar Música</button>
+  <button onclick="pauseMusic()">⏸️ Pausar Música</button>
+</section>
+
+  </section>
+
+  <section id="idioma">
+    <h2>🗣️ Idioma</h2>
+    <p>O idioma oficial é o espanhol rioplatense. Uma característica marcante é o uso do “vos” em vez de “tú”.</p>
+  </section>
+
+  <footer>
+    <p>Site cultural sobre a Argentina © 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
