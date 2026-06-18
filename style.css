@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+header {
+  background-color: #75AADB;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  background-color: #004080;
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+nav a:hover {
+  background-color: #75AADB;
+}
+section {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  color: #004080;
+}
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+.curiosidade {
+  background: #e6f2ff;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 5px solid #004080;
+}
+button {
+  background-color: #75AADB;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #004080;
+}
