@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #75AADB;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #004080;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #75AADB;
+}
+
+.topicos {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* duas colunas */
+  gap: 20px;
+  margin: 20px;
+}
+
+.topico {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.topico img, .topico video, .topico audio {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.topico.curiosidades {
+  grid-column: 1 / -1; /* ocupa as duas colunas */
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #75AADB;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #004080;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .topicos {
+    grid-template-columns: 1fr; /* vira uma coluna só */
+  }
+}
