@@ -56,3 +56,31 @@ button {
 button:hover {
   background-color: #004080;
 }
+/* Container geral para os tópicos */
+.topicos {
+  display: flex;
+  flex-wrap: wrap; /* quebra linha se não couber */
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* Cada caixinha */
+.topico {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  flex: 1 1 300px; /* largura mínima */
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.topico img, .topico video, .topico audio {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-top: 10px;
+}
