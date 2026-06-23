@@ -2,12 +2,12 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Argentina - Cultura</title>
+  <title>Argentina - Paixão e Cultura</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>🇦🇷 Argentina: Cultura</h1>
+    <h1>🇦🇷 Argentina: Paixão e Cultura</h1>
     <img src="bandeira.jpg" alt="Bandeira da Argentina" width="200">
   </header>
 
@@ -20,68 +20,57 @@
     <a href="#idioma">Idioma</a>
   </nav>
 
-  <section id="futebol">
+  <div class="topicos">
+  <div class="topico" id="futebol">
     <h2>⚽ Futebol</h2>
     <p>O futebol é quase uma religião na Argentina...</p>
-    <img src="futebol.jpg" alt="Jogadores argentinos comemorando" width="400">
-  </section>
+    <img src="futebol.jpg" alt="Jogadores argentinos comemorando">
+  </div>
 
-  <section id="hino">
+  <div class="topico" id="hino">
     <h2>🎵 Hino Nacional</h2>
     <p>O Hino Nacional Argentino é um símbolo de orgulho...</p>
-    <img src="obelisco.jpg" alt="Obelisco de Buenos Aires" width="400">
-    <audio id="player" controls>
+    <img src="obelisco.jpg" alt="Obelisco de Buenos Aires">
+    <audio controls>
       <source src="Hino.mp3" type="audio/mpeg">
-      Seu navegador não suporta áudio.
     </audio>
-    <button onclick="playMusic()">▶️ Tocar Música</button>
-    <button onclick="pauseMusic()">⏸️ Pausar Música</button>
-  </section>
+  </div>
 
-  <section id="cultura">
+  <div class="topico" id="cultura">
     <h2>🎭 Cultura</h2>
     <p>A cultura argentina mistura tradições indígenas...</p>
-    <img src="mate🧉.jpg" alt="Mate argentino" width="300">
-  </section>
+    <img src="mate🧉.jpg" alt="Mate argentino">
+  </div>
 
-  <section id="comida">
+  <div class="topico" id="comida">
     <h2>🍴 Comida Típica</h2>
-    <ul>
-      <li><strong>Asado</strong>: churrasco argentino...</li>
-      <li><strong>Empanadas</strong>: pastéis recheados...</li>
-      <li><strong>Dulce de leche</strong>: doce cremoso...</li>
-    </ul>
-    <img src="comida.jpg" alt="Pratos típicos argentinos" width="400">
-  </section>
+    <p><strong>Asado</strong>, <strong>Empanadas</strong>, <strong>Dulce de leche</strong>...</p>
+    <img src="comida.jpg" alt="Pratos típicos argentinos">
+  </div>
 
-  <section id="curiosidades">
+  <div class="topico" id="curiosidades">
     <h2>🔎 Curiosidades</h2>
-    <div class="curiosidade">O Obelisco de Buenos Aires...</div>
-    <div class="curiosidade">A Patagônia é famosa...</div>
-    <div class="curiosidade">O tango nasceu em Buenos Aires...</div>
-    <img src="patagonia.jpg" alt="Paisagem da Patagônia" width="400">
+    <p>O Obelisco de Buenos Aires... A Patagônia é famosa...</p>
+    <img src="patagonia.jpg" alt="Paisagem da Patagônia">
     <button onclick="mostrarCuriosidade()">Mostrar curiosidade extra</button>
     <p id="extra"></p>
-  </section>
+  </div>
 
-  <section id="musica">
-  <h2>🎶 Música e Dança</h2>
-  <p>O <strong>tango</strong> é a dança mais famosa, com músicas intensas e apaixonadas. O folclore argentino traz ritmos como chacarera e zamba. Mercedes Sosa marcou a música popular.</p>
+  <div class="topico" id="musica">
+    <h2>🎶 Música e Dança</h2>
+    <p>O <strong>tango</strong> é a dança mais famosa...</p>
+    <video controls>
+      <source src="tango.mp4" type="video/mp4">
+    </video>
+  </div>
 
-  <!-- Vídeo de tango -->
-  <video width="500" controls>
-    <source src="tango.mp4" type="video/mp4">
-    Seu navegador não suporta vídeo.
-  </video>
-</section>
-
-  </section>
-
-  <section id="idioma">
+  <div class="topico" id="idioma">
     <h2>🗣️ Idioma</h2>
     <p>O idioma oficial é o espanhol rioplatense...</p>
-    <img src="idioma.jpg" alt="Livro de espanhol" width="300">
-  </section>
+    <img src="idioma.jpg" alt="Livro de espanhol">
+  </div>
+</div>
+
 
   <footer>
     <p>Site cultural sobre a Argentina © 2026</p>
